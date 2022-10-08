@@ -1,0 +1,64 @@
+# Day 2: 30 Days of Python
+
+firstName = 'Patrick'
+lastName = 'Gregoire'
+fullName = 'firstName' + 'lastName'
+country = 'USA'
+city = 'Salem'
+age = 26
+year = 2022
+is_married = true
+is_true = false
+is_light_on = true
+
+skills = [masonry, electrical, painting, powerwashing]
+
+#Level2
+
+print(type(firstName))
+print(type(lastName))
+print(type(fullName))
+print(type(country))
+print(type(city))
+print(type(age))
+print(type(year)
+print(type(is_mairred))
+print(type(is_true))
+print(type(is_light_on))
+
+firstLen = len(firstName)
+lastLen = len(lastName)
+
+print(max([firstLen, lastLen]))
+
+num_one = 5
+num_two = 4
+
+total = num_one + num_two
+diff = num_two - num_one
+product = num_one * num_two
+division = float(num_one) / float(num_two)
+exp = num_one ** num_two
+floor_division = num_one // num_two
+
+#Radius to area
+
+radius = 30
+
+area_of_circle = 3.14 * (radius ** 2)
+
+circum_of_circle = radius * 2 * 3.14
+
+print(area)
+print(circum_of_circle
+
+user_radius = input('radius: ')
+
+user_circum = 3.14 * (user_radius ** 2)
+
+print(user_circum)
+
+user_first_name = input('First Name: ')
+user_last_name = input('Last Name: ')
+user_country = input('Country: ')
+user_age = input('Age: ')
